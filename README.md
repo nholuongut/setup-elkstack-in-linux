@@ -41,11 +41,11 @@ To do that follow this step:
 
 Change the directory to Downloads first and then run this:
 
-``` 
+```
 => cd /mnt/c/Users/(username)/Downloads
-
+```
 Move the tar files to Ubuntu:
-
+```
 => sudo mv (name-of-the-files) /home
 ```
 
@@ -55,9 +55,9 @@ Move the tar files to Ubuntu:
 Change directory to Ubuntu:
 ```
 => cd /home
-
+```
 Then extract them:
-
+```
 => sudo tar -xzvf (name-of-the-files)
 ```
 
@@ -69,9 +69,7 @@ Then extract them:
 
 Add this below and save them (Ctrl + S) and exit (Ctrl + X).
 ```
-
 export JAVA_HOME=/home/jdk-21.0.2
-
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 
@@ -86,10 +84,8 @@ Now to run them in Ubuntu we need to grant permissions:
 To add a new user, run this:
 ```
 sudo adduser (username) 
-
-Then run the above line.
 ```
-
+Then run the above line.
 
 ## Few steps to do before running the elk-stack:
 
